@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caller</title>
+</head>
+<style>
+    *{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .a1 {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    .a2{
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    .a3 {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }    .a4 {
+      background-color: #d42222; /* red */
+      border: none;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    
+    .a1 {border-radius: 8px;}
+    .a2 {border-radius: 8px;}
+    .a3 {border-radius: 8px;}
+    .a4 {border-radius: 8px;}
+ 
+    </style>
+    </head>
+    <body>
+
+    
+ <a href="tel:8861620011" class="a1">AMMA</a>
+    <a href="tel:9632333114" class="a2">APPA</a>
+    <a href="tel:08049539842" class="a3">HOME</a>
+    <a onclick="help()" href="tel:112" class="a4">HELP</a>
+<script>
+    function help(){
+        let hi
+        confirm("Tap OK to confirm call")
+        if(confirm(hi) === true ){
+            window.close()
+        }
+        if(confirm(hi) === false){
+            window.close()
+        }
+    }
+</script>
+    
+    </body>
+</html>
